@@ -1,0 +1,5 @@
+Patrón Singleton es uno de los patrones de diseño más simples. 
+Este patrón de diseño es de un tipo de patrón de creaciones, este patrón proporciona una de las mejores formas de crear 
+un objeto. Este patrón implica una clase única que es la responsable de crear un objeto asegurándose de que 
+se obteene un solo objeto creado. Esta clase proporciona una forma de acceder a su único objeto al que 
+se puede acceder directamente, sin necesidad de crear una instancia del objeto de la clase.
