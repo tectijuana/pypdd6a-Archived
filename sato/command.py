@@ -6,9 +6,9 @@ class Switch(object):
 class Light(object):
     """The RECEIVER class"""
     def turn_on(self):
-        print "The light is on"
+        print ("The light is on")
     def turn_off(self):
-        print "The light is off"
+        print ("The light is off")
 class LightSwitch(object):
     """The CLIENT class"""
     def __init__(self):
@@ -21,13 +21,13 @@ class LightSwitch(object):
         elif cmd == "OFF":
             self._switch.flip_down()
         else:
-            print 'Argument "ON" or "OFF" is required.'
+            print ('Argument "ON" or "OFF" is required.')
 # Execute if this file is run as a script and not imported as a module
 if __name__ == "__main__":
     light_switch = LightSwitch()
-    print "Switch ON test."
+    print ("Switch ON test.")
     light_switch.switch("ON")
-    print "Switch OFF test."
+    print ("Switch OFF test.")
     light_switch.switch("OFF")
-    print "Invalid Command test."
+    print ("Invalid Command test.")
     light_switch.switch("****")
